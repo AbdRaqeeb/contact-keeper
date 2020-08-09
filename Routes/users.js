@@ -1,9 +1,9 @@
-const express = require('express');
+const express = require('./node_modules/express');
 const router = express.Router();
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
-const config = require('config');
-const { check, validationResult } = require('express-validator');
+const bcrypt = require('./node_modules/bcryptjs');
+const jwt = require('./node_modules/jsonwebtoken');
+const config = require('./node_modules/config');
+const { check, validationResult } = require('./node_modules/express-validator');
 
 const User = require('../models/User');
 
